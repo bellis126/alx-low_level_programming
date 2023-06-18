@@ -4,15 +4,13 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ * Return: Always return 0 (Success)
  */
-
 int main(void)
 {
 int n;
 
 int m;
-
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
@@ -21,7 +19,7 @@ if (m > 5)
 {
 printf("last digit %d is %d and is greater than 5\n", n, m);
 }
-else if (m == 0)
+if (m == 0)
 {
 printf("last digit %d is %d and is 0\n", n, m);
 }
