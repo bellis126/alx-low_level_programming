@@ -8,21 +8,21 @@
 int main(void)
 {
 char d;
-
 char g;
 
 d = 'a';
 g = 'A';
-while
-(d <= 'z') {
+
+while (d <= 'z') {
 putchar(d);
 d++;
 }
-while
-(g <= 'z') {
+
+while (g <= 'Z') {
 putchar (g);
 g++;
 }
+
 putchar('\n');
 return (0);
 }
