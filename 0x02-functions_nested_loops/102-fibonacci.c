@@ -21,7 +21,7 @@ int main(void)
 		else
 		{
 			c += b;
-			b = c - j;
+			b = c - b;
 			printf(", %ld", c);
 		}
 		++a;
